@@ -1,0 +1,29 @@
+Package: spell.replacer
+Title: Probabilistic Spelling Correction in a Character Vector
+Version: 1.0
+Authors@R: 
+    person(given = "David",
+           family = "Brown",
+           role = c("aut", "cre"),
+           email = "dwb2@andrew.cmu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: That package automatically replaces "misspelled" words in a character vector
+             based on their string distance from list of words sorted by their frequency
+             in a corpus. The default word list provided in the package comes from 
+             the Corpus of Contemporary American English.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Imports:
+    hunspell, 
+    textclean, 
+    stringdist
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
