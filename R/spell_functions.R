@@ -20,10 +20,10 @@ spell_replace <- function(txt, word_list=coca_list, ignore_names=TRUE, threshold
 #' The default is to add a space before possessives and contractions.
 #' This will force their tokenization in quanteda.
 #' So that "Shakespeare's" will be counted as two tokens rather than a single one.
-#' It is easy to add or delete subsitions as fits your analytical needs.
+#' It is easy to add or delete substitutions as fits your analytical needs.
 #' @param txt A character vector
 #' @param contractions A logical value to separate contractions into two tokens
-#' @param hypens A logical value to separate hypenated words into two tokens
+#' @param hypens A logical value to separate hyphenated words into two tokens
 #' @param punctuation A logical value to remove punctuation
 #' @param lower_case A logical value to make all tokens lower case
 #' @param accent_replace A logical value to replace accented characters with un-accented ones
