@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "dwb2@andrew.cmu.edu",
            comment = c(ORCID = "0000-0001-7745-6354"))
-Description: This package automatically replaces "misspelled" words in a character vector
+Description: Automatically replaces "misspelled" words in a character vector
     based on their string distance from a list of words sorted by their frequency
     in a corpus. The default word list provided in the package comes from 
     the Corpus of Contemporary American English.
