@@ -1,3 +1,9 @@
+^\.DS_Store$
+^\.git$
+^\.github$
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^\.github$
+^README\.md$
+^\.gitignore$
+^Meta$
+^\.Rcheck$
