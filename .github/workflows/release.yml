@@ -84,9 +84,9 @@ jobs:
         files: ${{ steps.package_info.outputs.tarball }}
         name: Release ${{ steps.package_info.outputs.package_version }}
         body: |
-          ## quanteda.extras ${{ steps.package_info.outputs.package_version }}
+          ## spell.replacer ${{ steps.package_info.outputs.package_version }}
           
-          🎉 **CRAN-ready source package for quanteda.extras**
+          🎉 **CRAN-ready source package for spell.replacer**
           
           ### 📦 Installation from Release
           
